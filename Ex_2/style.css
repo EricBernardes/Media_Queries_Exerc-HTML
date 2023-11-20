@@ -1,0 +1,15 @@
+.esconder{
+  background-color: yellow;
+  padding: 20px;
+}
+
+.block{
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px){
+  .esconder{
+    display: none;
+  }
+}

@@ -1,0 +1,62 @@
+body { 
+  padding: 15px; 
+  background:#eee; 
+  font-family: Arial,Helvetica, sans-serif;
+}
+
+.caixa {
+  border: solid 1px #666;
+  padding: 5px 10px;
+  margin: 40px;
+  }
+
+ .area-visivel span {
+  color: #666;
+  display: none;
+} 
+
+@media screen and (max-width: 600px){
+  .um{
+    background-color: pink;
+    border: solid 3px red;
+  }
+
+  .lt600{
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .dois{
+    background-color: orange;
+    border: solid 3px blue;
+  }
+
+  .gt900{
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+  .tres{
+    background-color: lightblue;
+    border: solid 3px green;
+  }
+
+  .bt600-900{
+    display: inline;
+  }
+}
+
+@media (max-device-width: 480px){
+  .wrapper{
+    background-color: gray;
+    border: solid 1px #666;
+    padding: 5px 10px;
+    margin: 40px;
+  }
+}
+
+span{
+  border: red 2px solid;
+}
